@@ -1,0 +1,41 @@
+{
+	"intents": [
+		{
+			"content": [
+				{
+					"message": "Tahukah kamu?\nJiwa dan hati yang tenang dapat membuatmu\nkuat menghadapi segala tantangan."
+				},
+				{
+					"message": "Menjaga kesehatan mental sama pentingnya\ndengan menjaga kesehatan fisik."
+				},
+				{
+					"message": "Ayo jawab beberapa pertanyaan berikut untuk\nmengetahui kondisi kesehatan mentalmu."
+				},
+				{
+					"message": "Pahami Kondisi Mental Diri Sendiri"
+				},
+				{
+					"message": "",
+					"platform": "kommunicate",
+					"metadata": {
+						"contentType": "300",
+						"templateId": "11",
+						"payload": [
+							{
+								"name": "Mulai",
+								"action": {
+									"type": "quickReply",
+									"message": "Mulai"
+								}
+							}
+						]
+					}
+				}
+			],
+			"urlPatternList": [],
+			"category": "welcome_event",
+			"name": "Default Welcome Intent",
+			"trainingPhrases": []
+		}
+	]
+}
